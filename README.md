@@ -6,6 +6,7 @@ This repository contains **two parts**:
 
 Both are built using **HTML & CSS** with clean design and responsive layout.
 
+
 ---
 
 ## 📁 Folder Structure
@@ -25,6 +26,10 @@ Edit
 ## ✨ Part 1: Team Portfolio Website
 
 A responsive team showcase site introducing a group of freshers with images, names, and GitHub portfolio links.
+
+### 🔗 Live Demo
+
+👉 [Visit Team Portfolio](https://shaikh-insha.github.io/Personal.Team-Portfolio/)  
 
 ### 🔥 Features
 
@@ -56,7 +61,7 @@ A personal single-page portfolio built to showcase **Insha Shaikh’s** journey 
 
 ### 🔗 Live Demo
 
-👉 [Visit Portfolio](https://shaikh-insha.github.io/Team-Portfolio/portfolio-folder/)  
+👉 [Visit Personal Portfolio](https://shaikh-insha.github.io/Personal.Team-Portfolio/portfolio-folder/)  
 
 ### 👩‍🎓 About Me
 
