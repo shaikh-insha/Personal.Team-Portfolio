@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+<style>
+    body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.parallax {
+    background-image: url(home.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.parallax-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 5em;
+    margin-bottom: 10px;
+    color: #1b364d;
+}
+
+p {
+    font-size: 1.6em;
+    color: #606060;
+}
+
+section {
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #1a1a1a;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    background-color: #202f3e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: #7d8ea0;
+}
+.contact {
+    background-color: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 8px;
+    font-size: 13px;
+}
+@media (max-width: 768px) {
+            h1 {
+                font-size: 3em;
+            }
+
+            p, h2, h3, .contact {
+                font-size: 1em;
+            }
+
+            .parallax-content {
+                max-width: 100%;
+                padding: 0 20px;
+            }
+
+            section {
+                padding: 30px;
+            }
+        }
+
+</style>
+
+</head>
+<body>
+
+    <div class="parallax">
+        <div class="parallax-content">
+            <h1>Insha Shaikh</h1>
+            <p>Web Developer Fresher</p>
+        </div>
+    </div>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Aspiring Technologist | First-Year Student in BSc IT | Committed to Learning.</p>
+    </section>
+
+    <section class="experience">
+        <h2>Experience</h2>
+        <div class="job">
+            <h3>Fresher</h3>
+            <p>Location- Mumbai, Maharashtra, India </p>
+            <p>First Year BSc IT</p>
+        </div>
+        <!-- Add more job sections as needed -->
+    </section>
+
+    <section class="education">
+        <h2>Education</h2>
+        <div class="degree">
+            <h3>BSC IT Degree</h3>
+            <p>Ganshyamdas Saraf College of Arts & Commerce - 2023-2026</p>
+        </div>
+        <div class="degree">
+            <h3>High School Diploma - Computer Science </h3>
+            <p>RBK Educational Institution - 2021-2023</p>
+        </div>
+        <div class="degree">
+            <h3>High School - Computer Science  </h3>
+            <p>RBK Kanakia School  - 2020-2021</p>
+        </div>
+        
+        <!-- Add more education sections as needed -->
+    </section>
+
+    <section class="contact" id="contactme">
+        <h2>Contact</h2>
+        <p>Email: findinshashaikh@gmail.com</p>
+        <p>Phone: +91 9321153017</p>
+        <a href="index.html">Back To HOME Page</a>
+    </section>
+
+</body>
+</html>
