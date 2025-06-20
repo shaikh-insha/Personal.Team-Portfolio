@@ -1,42 +1,110 @@
-# 👩‍💻 Meet the Team – Web Developer Portfolio Showcase
+# 👩‍💻 Web Developer Showcase – Team & Personal Portfolio
 
-This project is a **responsive team showcase website** built using **HTML & CSS**. It highlights a group of fresher web developers with their names, photos, and portfolio links. The goal is to introduce each team member in a clean, engaging, and scroll-friendly layout using parallax effects.
+This repository contains **two parts**:
+1. 🌐 A **Team Portfolio Website** showcasing fresher developers
+2. 💼 A **Personal Portfolio Website** of Insha Shaikh
 
----
-
-## 📌 Features
-
-- 👥 **Team Introduction Section** with custom content  
-- 🎨 **Parallax background effects** for visually dynamic scrolling  
-- 🖼️ Profile images for each member  
-- 🔗 Direct **"Know Me" buttons** linking to individual GitHub portfolios  
-- 💻 Mobile-friendly and clean layout
+Both are built using **HTML & CSS** with clean design and responsive layout.
 
 ---
 
-## 🔧 Tech Stack
+## 📁 Folder Structure
 
-- **HTML5** – Page structure  
-- **CSS3** – Styling and responsiveness  
+Team-Portfolio/
+├── portfolio-folder/ ← Personal Portfolio (Insha Shaikh)
+├── index.html ← Team Portfolio homepage
+├── images/ (jpeg/png) ← Assets for team site
+├── README.md ← You're here!
 
-## 👤 Meet the Team
+markdown
+Copy
+Edit
+
+---
+
+## ✨ Part 1: Team Portfolio Website
+
+A responsive team showcase site introducing a group of freshers with images, names, and GitHub portfolio links.
+
+### 🔥 Features
+
+- 👥 Team intro with names & roles
+- 🎨 Parallax scroll effects
+- 🔗 "Know Me" buttons linked to portfolios
+- 📱 Mobile-friendly design
+
+### 👤 Meet the Team
 
 | Name               | Role                   | Portfolio Link |
 |--------------------|------------------------|----------------|
-| Mubasheer Shaikh   | Fresher Web Developer  | [Portfolio](https://mubasheer2.github.io/gojo/) |
+| Mubasheer Shaikh   | Fresher Web Developer  | [Gojo](https://mubasheer2.github.io/gojo/) |
 | Karishma Gupta     | Fresher Web Developer  | [Portfolio](https://karishmagupta8850.github.io/myportfolio/) |
 | Vaibhavi Dave      | Fresher Web Developer  | [Portfolio](https://bhaaavi02.github.io/portfolio02/) |
 | Khushi Choudhary   | Fresher Web Developer  | [Portfolio](https://choudharykhushi499.github.io/portfolio/) |
 | **Insha Shaikh**   | Fresher Web Developer  | [Portfolio](https://heeriye.github.io/Portfolio/) |
 
+### 📸 Screenshots
+
+<img width="600" alt="Team Section" src="https://github.com/user-attachments/assets/00b707d3-3faa-4793-a77c-7c1b8fa9d2f3" />
+<img width="600" alt="Parallax Section" src="https://github.com/user-attachments/assets/f91746fd-3cc5-45e6-b213-1486562023d2" />
+
 ---
 
-## 🖼️ Screenshots
-<img width="1440" alt="Screenshot 2025-06-19 at 12 42 29 pm" src="https://github.com/user-attachments/assets/00b707d3-3faa-4793-a77c-7c1b8fa9d2f3" />
-<img width="1440" alt="Screenshot 2025-06-19 at 12 44 06 pm" src="https://github.com/user-attachments/assets/f91746fd-3cc5-45e6-b213-1486562023d2" />
+## 💼 Part 2: Personal Portfolio – Insha Shaikh
 
-## 🚀 Getting Started
+A personal single-page portfolio built to showcase **Insha Shaikh’s** journey as a budding developer.
 
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/yourusername/meet-the-team.git
+### 🔗 Live Demo
+
+👉 [Visit Portfolio](https://shaikh-insha.github.io/Team-Portfolio/portfolio-folder/)  
+
+### 👩‍🎓 About Me
+
+Hi! I’m **Insha Shaikh**, a second-year B.Sc. IT student passionate about clean design, real-world projects, and career growth in tech.
+
+### 📌 Highlights
+
+- 📜 About Me + Education Timeline
+- 🧰 Skills + Experience Section
+- 📧 Contact via email or phone
+- 🖼️ Smooth scroll + Parallax effect
+
+### 🛠️ Tech Stack
+
+- HTML5  
+- CSS3  
+- Responsive Design  
+- Parallax Backgrounds
+
+### 🚀 How to Run
+
+```bash
+git clone https://github.com/shaikh-insha/Team-Portfolio.git
+cd Team-Portfolio/portfolio-folder
+open index.html
+📬 Contact
+✉️ Email: findinshashaikh@gmail.com
+
+📞 Phone: +91 9321153017
+
+🔗 LinkedIn
+
+📝 License
+This project is open for educational & portfolio purposes. You're welcome to fork and build upon it.
+
+Built with 💙 by Insha Shaikh and the Team.
+
+yaml
+Copy
+Edit
+
+---
+
+### ✅ Next Steps
+
+- Copy this and paste it into your `README.md` file on GitHub or in VS Code.
+- Commit with:
+  ```bash
+  git add README.md
+  git commit -m "Updated README with team and personal portfolio details"
+  git push origin main
